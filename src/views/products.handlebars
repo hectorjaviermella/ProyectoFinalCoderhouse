@@ -1,0 +1,109 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/products">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/api/sessions/current">Current</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/newproduct">NewProduct</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/users">AdminUsers</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/ticketsUser/{{user.email}}">Payments</a>
+        </li>
+      </ul>
+       <a href="/cart/{{user.cart}}">
+          <button
+            >Carrito
+            Details</button>
+        </a>
+
+      <div><button id="logout">Log out</button></div>
+      
+    </div>
+  </div>
+</nav>
+<div id="app">
+
+   <h1 style="display: flex; justify-content: center;">Bienvenido: {{user.name}} {{user.last_name}} </h1>
+   <h3>Email: {{user.email}} - Age: {{user.age}}  - Role: {{user.role}} - Cart: {{user.cart}} </h3>
+   <input type="text" id="miInput" value={{user.cart}} style="display: none">
+    
+  <h2> Products list</h2>
+ 
+  <div id="productsList">
+    
+    {{#each productos}}
+          <!--div id="{{this._id}}"-->
+          
+        <div class="card"  style="width: 25rem;">          
+            
+                    <div class="px-5 pb-5">
+                                <!--input type="text" id="miInput2" value={{this._id}} style="display: none"-->                                
+                                <h5 >Titulo: {{this.pTitle}}  </h5>
+                                <!--p> Title: {{this.pTitle}}</p--> 
+                                <p> Descripcion: {{this.pDescription}}</p> 
+                                <p class="card-text" >Idprod: <input placeholder=" " type="text" name="Idprod" id="Idprod" value={{this._id}}   />
+                                  </p>
+                                <p> Owner: {{this.pOwner}}</p>                                    
+                                    <p class="card-text"> Precio: ${{this.pPrice}}</p>
+                                    <p class="card-text"> Stock: {{this.pStock}}</p>
+
+
+                                <a href="product/{{this._id}}">
+                                  <button
+                                    >Product
+                                    Details</button>
+                                 </a>
+                                <form id="addToCartForm-{{this._id}}">        
+                                      <button type="submit">Add to cart </button>   
+                                  </form>     
+                             <form id="removeFromCartForm-{{this._id}}">
+                                 <button type="submit"> Remove </button>                              
+                             </form>
+                               
+                              
+                              
+                                  
+                      </div>  
+                    
+       
+                              {{#each this.thumbnails}}
+                                <img src="{{this}}" alt="product image" />
+                                {{/each}}
+                             
+                  </div>
+          
+                  
+
+        </div>
+       
+                 
+     
+    {{/each}}
+  </div>
+
+
+   {{#if hasPrevPage}}
+    <a href="/products?page={{prevPage}}">Anterior</a>
+  {{/if}}
+
+   {{page}} de {{totalPages}} 
+
+   {{#if hasNextPage}}
+    <a href="/products?page={{nextPage}}">Siguiente</a>
+  {{/if}}
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/products.js"></script>

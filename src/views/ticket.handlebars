@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/products">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/api/sessions/current">Current</a>
+        </li>
+      </ul>
+      </ul>
+      <div><button id="logout">Logout</button></div>
+    </div>
+  </div>
+</nav>
+
+
+<div id="app">
+    <h1 id="productId">Ticket with the id:   {{ticket._id}}  </h1>
+    <p>Code: {{ticket.code}}</p>
+    <p>Amount $: {{ticket.amount}}</p>
+    <p>Purcharser: {{ticket.purcharser}}</p>
+    <p>Purchase_datetime: {{ticket.purchase_datetime}}</p>    
+
+    <p>Elementos comprados: {{ticket.arrayproductscomprados}}</p>    
+    <p>Elementos no comprados: {{ticket.arrayproductsnocomprados}}</p>    
+    
+   
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/ticket.js"></script>

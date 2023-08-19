@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/products">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/api/sessions/current">Current</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/newproduct">NewProduct</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/users">AdminUsers</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/ticketsUser/{{user.email}}">Payments</a>
+        </li>
+
+
+      </ul>
+      <a href="/ticket/{{cart._id}}">
+          <button
+            >Generar Ticket</button>
+        </a>
+      
+        
+     
+      <div><button id="logout">Log out</button></div>
+   
+    </div>
+  </div>
+</nav>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h5 class="card-title">Carrito nro: {{cart._id}} </h5>
+    <input type="text" id="miInput" value={{cart._id}} style="display: none">
+      
+     
+
+    {{#each cart.products}}
+      <div class="card" style="width: 18rem;">
+        <!--img src="{{this.pThumbnails.[0]}}" class="card-img-top" alt="..." /-->
+        <div class="card-body">
+          <h5 class="card-title">Articulo: {{this.pId.pTitle}}</h5>
+          <p class="card-text">Description: {{this.pId.pDescription}}</p>
+          <p class="card-text">Idprod: <input placeholder=" " type="text" name="Idprod" id="Idprod" value={{{this.pId._id}}}  disabled/>
+           </p>
+          <p class="card-text">Cantidad: {{this.quantity}}</p>
+          <p class="card-text">Precio: {{this.pId.pPrice}}</p>
+           <!--button id="removetocart">Remove to Cart </button-->
+          
+        </a>
+               
+        
+        </div>
+      </div>
+       <form class="flex justify-end" id="removeFromCartForm-{{this.productId._id}}">
+      <button type="submit"
+        class="text-slate-100 bg-red-700 hover:bg-red-800 focus:ring-2 focus:outline-none focus:ring-red-500 font-medium rounded-lg text-xs w-full sm:w-auto px-3 py-1.5 text-center"><span>Remove</span></button>
+    </form>
+    {{/each}}
+        
+  </div>
+ 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/cart.js"></script>

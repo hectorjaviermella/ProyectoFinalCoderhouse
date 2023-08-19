@@ -1,0 +1,285 @@
+paths:
+  /api/carts/{cId}:
+      get:
+          summary: Obtiene un solo carrito a partir de su id
+          tags: 
+            - Carts:    
+          operationId: getCardId  
+          parameters:
+          - name: cId
+            in: path
+            required: true
+            description: id del carrito que se desea recuperar
+            schema:
+              $type: String
+            
+          responses:
+            "200":
+              description: El carrito se recupero exitosamente de la base de datos
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      $ref: "#components/schemas/Cart"
+            "500":
+              description: Error en en la conexion con la base de datos
+      delete:
+        summary: Elimina un carrito a partir de su id
+        tags: 
+          - Carts:
+        parameters:
+        - name: cId
+          in: path
+          required: true
+          description: id del carrito que se desea eliminar
+          schema:
+            $type: String
+          
+        responses:
+          "200":
+            description: El carrito se pudo eliminar de la base de datos
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Cart"
+          "500":
+            description: Error en en la conexion con la base de datos
+          "404":
+            description: Error en en la conexion con la base de datos
+      put: 
+        summary: Actualiza el carrito con un arreglo de productos
+        tags:
+          - Carts:
+        parameters:
+          - name: cId
+            in: path
+            required: true
+            description: id es del carrito a actualizar
+            schema:
+              $type: String
+        responses:
+          "200": 
+            description: Update car to  array product  to cart
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Cart"        
+        requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/productTothecart" 
+  
+  /api/carts/:
+      post:
+        summary: Para crear un nuevo carrito sin productos 
+        tags:
+         - Carts:
+        operationId: createCart      
+        responses:
+          '201':
+            description: Created
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Cart"
+      
+  /api/carts/{cId}/product/{pId}:
+      put:
+          summary: Actualizar la cantidad de unidades de un producto que se encuentra en el carrito
+          tags:
+          - Carts:
+          parameters:
+          - name: cId
+            in: path
+            required: true
+            description: id del carrito a modificar
+            schema:
+              $type: String
+          - name: pId
+            in: path
+            required: true
+            description: id del producto a modificar
+            schema:
+              $type: String
+          responses:
+            "200":
+              description: Product successfully added to the cart
+              content:
+                application/json:
+                  schema:
+                    $ref: "#components/schemas/Cart"
+
+          requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/updateQuantity"
+      post:
+          summary: Agrega  un producto al  carrito
+          tags:
+            - Carts:
+          parameters:
+            - name: cId
+              in: path
+              required: true
+              description: Id del carrito a modificar
+              schema:
+                $type: string
+            - name: pId
+              in: path
+              required: true
+              description: Id del producto a agregar 
+              schema:
+                $type: string           
+          responses:
+            "200":
+              description: Producto agregado correctamente al carrito
+              content:
+                application/json:
+                  schema:
+                    $ref: "#components/schemas/Cart"
+          requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/updateQuantity"
+      delete: 
+        summary: Elimina un producto del carrito 
+        tags:
+          - Carts:
+        parameters:
+          - name: cId
+            in: path
+            required: true
+            description: Id del carrito a modificar
+            schema:
+              $type: String
+          - name: pId
+            in: path
+            required: true
+            description: Id del producto a borrar
+            schema:
+              $type: String
+        responses:
+          "200":
+            description: Product successfully deleted from the cart
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Cart"
+  
+  /api/carts/{cid}/purchase:
+      get:
+        summary: Crea un ticket de la compra de un  carrito
+        tags:
+          - Carts:
+        parameters:
+          - name: cid
+            in: path
+            required: true
+            description: Id del carrito a generar el ticket
+            schema:
+              $type: String
+        responses:
+          "200":
+            description: Ticket de la compra
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/tickets"
+
+components:
+  schemas:
+    Cart:
+      type: object
+      properties:
+        _id:
+           type: ObjectId
+           description: Id autogenerado de mongo
+        products:
+          type: array
+          items:
+            quantity:
+               type: Number
+               description: Cantidad de productos en el carrito
+            pId:
+              type: ObjectId
+              $ref: '#/components/schemas/Product'
+
+      example:
+        _id: 649da54f35f1c25c22510336
+        products: 
+           - pId: ObjectId("64336265a853fed40fc26032")
+             quantity: 1
+           - pId: ObjectId("64ac0ba40309e5cb938ccf96")
+             quantity: 1              
+    ItemProductos:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Descripcion de los productos comprados / no comprados         
+  requestBodies:
+    productTothecart:
+      type: object
+      properties:
+        pId:
+          type: String
+          description: Id del producto
+        quantity:
+          type: Number
+          description: Cantidad de producto
+      example:
+        {
+          pId:"649d7c8efee1b9fd8d4e94ea" 
+          quantity: 1
+        }
+    updateQuantity:   
+      type: object
+      properties:
+        quantity:
+          type: Number
+          description: Cantidad de producto
+      example:
+        {
+          quantity: 1
+        }
+    tickets:
+            type: object
+            properties:
+              code: 
+                type: String
+                description: Codigo del ticket
+              amount:
+                type: Number
+                description: Costo total de la compra
+              purchaser:
+                type: String
+                description: Email del comprador
+              purchase_datetime: 
+                type: Date
+                description: Horario de la compra
+              arrayproductscomprados:
+                type: Array
+                $ref: '#/components/schemas/ItemProductos'   
+              arrayproductsnocomprados:
+                type: Array
+                $ref: '#/components/schemas/ItemProductos'  
+
+            example:
+              code: "7tDrC"
+              amount: "470"
+              purchase_datetime: "2023-06-13T19:58:23.773+00:00"
+              purchaser: "hectorjaviermella@gmail.com.ar"
+              arrayproductscomprados : ["1 unidades agua"]
+              arrayproductsnocomprados: ["1 unidades vino"]
+
+
+              __v: 0
+
+       

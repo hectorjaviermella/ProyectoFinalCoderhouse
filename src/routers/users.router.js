@@ -1,0 +1,47 @@
+import { Router } from "express";
+import  {switchRol,getUsersById,getUsersDto,getUsers,deleteUser,borrarUsuariosInactivos,documents,profile} from "../controllers/users.controller.js";
+
+import __dirname from "../utils.js";
+
+import { uploadDocuments} from "../dirname.js";
+
+import { checkVistaAdministrador ,checkDocCargados} from "../middlewares/auth.js";
+
+
+export const usersRouter = Router();
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+usersRouter.get("/:uid",getUsersById);
+//////////////////////////////////////////////////////////////////////////////////////
+//cambia el rol del usuario
+usersRouter.get("/premium/:uid",checkDocCargados,switchRol);
+//////////////////////////////////////////////////////////////////////////////////////
+//obtener todos los usuario con dto
+usersRouter.get("/",getUsersDto);
+//////////////////////////////////////////////////////////////////////////////////////////////
+//obtener todos los usuarios 
+usersRouter.get("/", checkVistaAdministrador,getUsers);
+
+//////////////////////////////////////////////////////////////////////////////////////
+//borrar todos los usuarios inactivos x tiempo
+usersRouter.delete("/",borrarUsuariosInactivos);
+//////////////////////////////////////////////////////////////////////////////////////
+//borrar un usuario por su id
+usersRouter.delete("/:uid",  deleteUser);
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//carga de documentos para un usuario
+usersRouter.post("/:uid/documents", uploadDocuments.fields([{ name: 'document'}]), documents);
+//////////////////////////////////////////////////////////////////////////////////////
+//carga una imagen para el profile de la persona
+usersRouter.post("/:uid/profile", uploadDocuments.fields([{ name: 'profile'}]), profile);
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+export default usersRouter;

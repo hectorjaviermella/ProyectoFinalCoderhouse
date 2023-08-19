@@ -1,0 +1,191 @@
+paths:
+  /api/products/:
+    get:
+        summary: Obtiene todos los productos cargados en el sistema para la venta
+        tags: 
+          - Products:          
+        responses:
+          "200":
+            description: Los productos se recuperaron exitosamente de la base de datos
+            content:
+              application/json:
+                schema:
+                  type: array
+                  items:
+                    $ref: "#components/schemas/Product"
+          "500":
+            description: Error en en la conexion con la base de datos
+
+    post:
+        summary: Para crear un nuevo producto 
+        tags:
+         - Products:
+        operationId: crearProducto
+        requestBody:
+           required: true
+           content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/updateProduct"
+        responses:
+          '201':
+            description: Created
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Product"
+      
+
+  /api/products/{pId}:
+      get:
+          summary: Obtiene un producto a partir de su id
+          tags: 
+            - Products:
+          parameters:
+          - name: pId
+            in: path
+            required: true
+            description: id del producto que se desea recuperar
+            schema:
+              $type: String
+          
+          responses:
+            "200":
+              description: Producto se pudo recuperar de la base de datos
+              content:
+                application/json:
+                  schema:
+                    $ref: "#components/schemas/Product"
+            "500":
+              description: Error en en la conexion con la base de datos
+            "404":
+              description: Error en en la conexion con la base de datos
+      put:
+          summary: Actualiza un producto a partir de un Id
+          tags:
+          - Products:
+          parameters:
+          - name: pId
+            in: path
+            required: true
+            description: id del producto a modificar
+            schema:
+              $type: String
+          requestBody:
+            required: true
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/requestBodies/updateProduct"
+      delete:      
+        summary: Elimina un solo producto a partir de su id
+        tags: 
+          - Products:
+        parameters:
+        - name: pId
+          in: path
+          required: true
+          description: id del producto que se desea eliminar
+          schema:
+            $type: String
+        
+        responses:
+          "200":
+            description: Producto se pudo eliminar de la base de datos
+            content:
+              application/json:
+                schema:
+                  $ref: "#components/schemas/Product"
+          "500":
+            description: Error en en la conexion con la base de datos
+          "404":
+            description: Error en en la conexion con la base de datos
+ 
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        _id:
+           type: ObjectId
+           description: Id autogenerado de mongo
+        pTitle:
+           type: String
+           description: Titulo del producto
+        pDescription:
+           type: String
+           description: Descripcion  del producto
+        pCode:
+           type: String
+           description: Codigo del producto
+        pPrice:
+           type: Number
+           description: Precio del producto
+        pStatus:
+           type: Boolean
+           description: Esta activo el producto o no
+        pStock:  
+           type: Number
+           description: Cantidad de productos en stock
+        pCategory:
+           type: String
+           description: Tipo de productos a la venta
+        pOwner:
+           type: String
+           description: Usuario que cargo el producto al sistema
+        pThumbnail:
+           type: String
+           description: Fotos del producto, se guarda la ruta y nombre donde se alojan.
+      example:
+        id: ObjectId("649d7bf2fee1b9fd8d4e94e8")
+        pTitle : Cerveza lata
+        pDescription: Cerveza en lata de 500 ml
+        pCode:  cres55s
+        pPrice: 100
+        pStatus: true
+        pStock: 50
+        pCategory: bebidas
+        pThumbnail: ''
+        pOwner: hectorjaviermella@gmail.com
+  requestBodies:
+     updateProduct:
+        type: object
+        properties:
+          pTitle:
+             type: String
+             description: Titulo del producto
+          pDescription:
+             type: String
+             description: Descripcion  del producto
+          pCode:
+             type: String
+             description: Codigo del producto
+          pPrice:
+             type: Number
+             description: Precio del producto
+          pStatus:
+             type: Boolean
+             description: Esta activo el producto o no
+          pStock:  
+             type: Number
+             description: Cantidad de productos en stock
+          pCategory:
+             type: String
+             description: Tipo de productos a la venta
+          pOwner:
+             type: String
+             description: Usuario que cargo el producto al sistema
+          pThumbnail:
+             type: String
+             description: Fotos del producto, se guarda la ruta y nombre donde se alojan.
+        example:
+          pTitle : Cerveza botella
+          pDescription: Cerveza en botella de 500 ml
+          pCode:  cres55s
+          pPrice: 200
+          pStatus: true
+          pStock: 100
+          pCategory: bebidas
+          pOwner: hectorjaviermella@gmail.com
+          pThumbnail: ''
+       

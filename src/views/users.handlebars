@@ -1,0 +1,102 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/products">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/api/sessions/current">Current</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/newproduct">NewProduct</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/users">AdminUsers</a>
+        </li>
+      </ul>
+       <a href="/cart/{{user.cart}}">
+          <button
+            >Carrito
+            Details</button>
+        </a>
+
+      <div><button id="logout">Log out</button></div>
+      
+    </div>
+  </div>
+</nav>
+<div id="app">
+
+   <h1 style="display: flex; justify-content: center;">Bienvenido: {{user.name}} {{user.last_name}} </h1>
+   <h3>Email: {{user.email}} - Age: {{user.age}}  - Role: {{user.role}} - Cart: {{user.cart}} </h3>
+   <input type="text" id="miInput" value={{user.cart}} style="display: none">
+    
+  <h2> Users list</h2>
+ 
+  <div id="productsList">
+    
+    {{#each users}}
+          <!--div id="{{this._id}}"-->
+          
+        <div class="card"  style="width: 25rem;">          
+            
+                    <div class="px-5 pb-5">
+                                <img src="{{this.profile.reference}}"   alt="user image" />                           
+                              
+                                                             
+                                <h5 >First Name: {{this.first_name}}  </h5>
+                               
+                                <p> Last_name: {{this.last_name}}</p> 
+                                <p class="card-text" >IdUser: <input placeholder=" " type="text" name="IdUser" id="Idprod" value={{this._id}}   />
+                                  </p>
+                                <p> role: {{this.role}}</p>                                    
+                                <p class="card-text"> Email: {{this.email}}</p>
+                                <p class="card-text"> Age: {{this.age}}</p>
+
+
+                                <a href="user/{{this._id}}">
+                                  <button> Modify User</button>
+                                 </a>
+                                    
+                             <form id="removeFromCartForm-{{this._id}}">
+                                 <button type="submit"> Remove </button>                              
+                             </form>
+                               
+                              
+                              
+                                  
+                      </div>  
+                    
+       
+                            
+                             
+                  </div>
+          
+                  
+
+        </div>
+       
+                 
+     
+    {{/each}}
+  </div>
+
+
+   {{#if hasPrevPage}}
+    <a href="/users?page={{prevPage}}">Anterior</a>
+  {{/if}}
+
+   {{page}} de {{totalPages}} 
+
+   {{#if hasNextPage}}
+    <a href="/users?page={{nextPage}}">Siguiente</a>
+  {{/if}}
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/users.js"></script>

@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" id="home">Home</a>
+        </li>
+      </ul>
+      <div><button id="logout">Log out</button></div>
+    </div>
+  </div>
+</nav>
+
+
+<div id="app">
+    <input type="text" id="miInput" value={{user._id}} style="display: none">
+    <h1 id="productId">User ID:  {{user._id}}  </h1>
+  
+
+    <div id="productDetail" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div id="product-{{this._id}}" class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700 m-1">
+            <div>
+             
+                <img src="{{user.profile.reference}}"   alt="user image" />
+            
+            </div>
+            <div>
+                          
+                <p>Firts name:
+                    {{user.first_name}}</p>
+                <p>Last name:
+                    {{user.last_name}}</p>
+                <p>Email:
+                    {{user.email}}</p>
+                <p>Age:
+                    {{user.age}}</p>                                       
+
+                    <div>
+                         <label for="cid">Role</label>
+                        <input placeholder=" " type="text" name="cid" id="cid" value={{user.role}}  disabled/>
+                         <button id="botonForm">Modify role </button>
+                    </div>
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/user.js"></script>

@@ -1,0 +1,16 @@
+import { Router } from "express";
+import  {loggerTest} from "../controllers/logger.controller.js";
+
+import __dirname from "../utils.js";
+
+
+export const loggerRouter = Router();
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+loggerRouter.get("/loggerTest",loggerTest);
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+export default loggerRouter;

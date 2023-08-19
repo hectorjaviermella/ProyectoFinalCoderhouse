@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" id="home">Home</a>
+        </li>
+      </ul>
+      <div><button id="logout">Log out</button></div>
+    </div>
+  </div>
+</nav>
+
+
+<div id="app">
+    <h1 id="productId">Product with the ID:  {{prod._id}}  </h1>
+  
+
+    <div id="productDetail" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div id="product-{{this._id}}" class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-700 m-1">
+            <div>
+                {{#each prod.thumbnails}}
+                <img src="{{this}}" alt="product image" />
+                {{/each}}
+            </div>
+            <div>
+                <h5 id="title"> Title: {{product.pTitle}}</h5>
+               
+                <p>Description:
+                    {{prod.pDescription}}</p>
+                <p>Category:
+                    {{prod.pCategory}}</p>
+                <p>Stock:
+                    {{prod.pStock}}</p>
+                <p>Code:
+                    {{prod.pCode}}</p>
+
+                    <div>
+                        <p>Price:$ {{prod.pPrice}}</p>
+                        
+                    </div>
+                   
+
+                    <div>
+                         <label for="cid">Cart ID</label>
+                        <input placeholder=" " type="text" name="cid" id="cid" value={{cId}}  disabled/>
+                         <button id="botonForm">Add to Cart </button>
+                    </div>
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/product.js"></script>
