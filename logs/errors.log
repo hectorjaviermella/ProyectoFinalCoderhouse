@@ -13674,3 +13674,126 @@ debug: Entro al getProducts
 debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/19/2023 - 4:43:28 PM
 debug: Server runing at port 8080
 debug: Server runing at port 8080
+debug: Server runing at port 8080
+debug: GET en /mail - 8/19/2023 - 7:57:08 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: GET en /api/sessions/githubcallback?code=a7ac92533ef6958898b1 - 8/19/2023 - 7:57:48 PM
+debug: GET en /products - 8/19/2023 - 7:57:49 PM
+debug: Entro al getProducts
+debug: GET en / - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:01 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:02 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:03 PM
+debug: GET en / - 8/19/2023 - 7:58:03 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:04 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:05 PM
+debug: GET en /login - 8/19/2023 - 7:58:06 PM
+debug: GET en /login - 8/19/2023 - 7:58:06 PM
+debug: GET en /login - 8/19/2023 - 7:58:06 PM
+debug: GET en /login - 8/19/2023 - 7:58:06 PM
+debug: GET en /login - 8/19/2023 - 7:58:07 PM
+debug: GET en /login - 8/19/2023 - 7:58:07 PM
+debug: GET en /login - 8/19/2023 - 7:58:07 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:08 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:09 PM
+debug: GET en /login - 8/19/2023 - 7:58:10 PM
+debug: Server runing at port 8080
+debug: GET en /login - 8/19/2023 - 7:58:20 PM
+debug: GET en /login - 8/19/2023 - 7:58:21 PM
+debug: GET en /login - 8/19/2023 - 7:58:21 PM
+debug: GET en /login - 8/19/2023 - 7:58:22 PM
+debug: GET en /login - 8/19/2023 - 7:58:22 PM
+debug: GET en / - 8/19/2023 - 7:58:26 PM
+debug: GET en /login - 8/19/2023 - 7:58:26 PM
+debug: GET en /login - 8/19/2023 - 7:58:26 PM
+debug: GET en /login - 8/19/2023 - 7:58:26 PM
+debug: GET en /login - 8/19/2023 - 7:58:26 PM
+debug: GET en /login - 8/19/2023 - 7:58:27 PM
+debug: GET en /login - 8/19/2023 - 7:58:27 PM
+debug: GET en /login - 8/19/2023 - 7:58:27 PM
+debug: GET en /login - 8/19/2023 - 7:58:27 PM
+debug: GET en /login - 8/19/2023 - 7:58:27 PM
+debug: GET en /login - 8/19/2023 - 7:58:28 PM
+debug: GET en /login - 8/19/2023 - 7:58:28 PM
+debug: GET en /login - 8/19/2023 - 7:58:28 PM
+debug: GET en /login - 8/19/2023 - 7:58:28 PM
+debug: GET en /login - 8/19/2023 - 7:58:29 PM
+debug: GET en /login - 8/19/2023 - 7:58:29 PM
+debug: GET en /login - 8/19/2023 - 7:58:29 PM
+debug: GET en /login - 8/19/2023 - 7:58:29 PM
+debug: GET en /login - 8/19/2023 - 7:58:30 PM
+debug: GET en /products - 8/19/2023 - 7:58:30 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 7:58:31 PM
+debug: GET en / - 8/19/2023 - 7:58:33 PM
+debug: POST en /api/sessions/login - 8/19/2023 - 7:58:38 PM
+debug: GET en /products - 8/19/2023 - 7:58:39 PM
+debug: Entro al getProducts
+debug: GET en /cart/64d69fce5d6a3bb7c6d12874 - 8/19/2023 - 7:58:45 PM
+debug: GET en /products - 8/19/2023 - 7:58:48 PM
+debug: Entro al getProducts
+debug: GET en /product/649d7c8efee1b9fd8d4e94ea - 8/19/2023 - 7:58:59 PM
+debug: POST en /api/carts/64d69fce5d6a3bb7c6d12874/product/649d7c8efee1b9fd8d4e94ea - 8/19/2023 - 7:59:02 PM
+debug: entro al addProductToCart
+debug: GET en /products - 8/19/2023 - 7:59:07 PM
+debug: Entro al getProducts
+debug: GET en /cart/64d69fce5d6a3bb7c6d12874 - 8/19/2023 - 7:59:09 PM
+debug: GET en /ticket/64d69fce5d6a3bb7c6d12874 - 8/19/2023 - 7:59:14 PM
+debug: Entro al ticket
+debug: Entro al createTicket {"$__":{"$versionError":null,"activePaths":{"paths":{},"states":{"default":{},"modify":{}}},"backup":{"activePaths":{"default":{"_id":true,"pagado":true,"purchase_datetime":true},"modify":{"amount":true,"arrayproductscomprados":true,"arrayproductsnocomprados":true,"code":true,"purcharser":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"arrayproductsnocomprados":{"__v":0,"_id":"64e1494248595f586ce34fcf","amount":170,"arrayproductscomprados":["1 unidades agua vendita"],"arrayproductsnocomprados":[],"code":"veritatis","pagado":false,"purcharser":"hectorjaviermella@gmail.com","purchase_datetime":"2023-08-19T22:59:14.929Z"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"64e1494248595f586ce34fcf","amount":170,"arrayproductscomprados":["1 unidades agua vendita"],"arrayproductsnocomprados":[],"code":"veritatis","pagado":false,"purcharser":"hectorjaviermella@gmail.com","purchase_datetime":"2023-08-19T22:59:14.929Z"}}
+debug: GET en /products - 8/19/2023 - 7:59:20 PM
+debug: Entro al getProducts
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/19/2023 - 7:59:22 PM
+debug: GET en /cart/64d69fce5d6a3bb7c6d12874 - 8/19/2023 - 7:59:30 PM
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/19/2023 - 7:59:33 PM
+debug: GET en /products - 8/19/2023 - 7:59:39 PM
+debug: Entro al getProducts
+debug: GET en /cart/64d69fce5d6a3bb7c6d12874 - 8/19/2023 - 7:59:41 PM
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/19/2023 - 7:59:47 PM
+debug: GET en /payment-intents?id=64e1494248595f586ce34fcf - 8/19/2023 - 7:59:49 PM
+debug: POST en /processpayment - 8/19/2023 - 8:00:15 PM
+debug: GET en /products - 8/19/2023 - 8:00:18 PM
+debug: Entro al getProducts

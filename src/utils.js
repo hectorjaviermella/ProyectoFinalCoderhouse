@@ -58,12 +58,12 @@ export const generateProduct = () => {
 //////////////////////////////////////////////////////////////////
 //envio de email
 const {
-  nodemailerConfig: { service, port, user, password,mail_receptor},
+  nodemailerConfig: { service, port_email, user, password,mail_receptor},
 } = configMailSms;
 
 export const transport = nodemailer.createTransport({
   service: service,
-  port: port,
+  port: port_email,
   auth: {
       user: user,
       pass: password
