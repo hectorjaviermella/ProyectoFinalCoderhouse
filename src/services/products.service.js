@@ -2,22 +2,18 @@ import { productRepository } from "../repositories/index.js";
 import ProductDTO from "../daos/dtos/product.dto.js";
 import  MailsService  from "../services/mails.service.js";
 const mailsService = new MailsService();
-
 export default class ProductsService {
   constructor() {}
 
 ///////////////////////////////////////////////////////////
-
  async getProducts(query,limit,page,pCategory,pStatus,sort) {
   
     const products = await productRepository.getProducts(query,limit,page,pCategory,pStatus,sort);
  
     return products;
   }
-
 ////////////////////////////////////////////////////////////////////////
-async getProductsById(pId) {
-   
+async getProductsById(pId) {   
     const product = await productRepository.getProductsById(pId);
     return product;
   }

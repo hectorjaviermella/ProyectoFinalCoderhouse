@@ -23,7 +23,6 @@ async getTicketsById(tId) {
     const ticket = await ticketRepository.getTicketsById(tId);
     return ticket;
   }
-
  ////////////////////////////////////////////////////////////////////////
 async getTicketsByUser(purcharser) { 
   const tickets = await ticketRepository.getTicketsByUser(purcharser); 
@@ -31,8 +30,6 @@ async getTicketsByUser(purcharser) {
   return tickets;
 }
 ////////////////////////////////////////////////////////////////////////
-
-
 async updateTicket(tId,ticketnuevo) {
     const updateTicket =  await ticketRepository.updateTicket(tId,ticketnuevo);
     let result=null;
