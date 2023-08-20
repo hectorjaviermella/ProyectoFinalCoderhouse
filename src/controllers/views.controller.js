@@ -456,6 +456,6 @@ export async function payment(req, res) {
 ///////////////////////////////////////////////////////
 
 export function info(req, res) {
-  console.log("llego al info");
+ // console.log("llego al info");
   res.render("info");
 };

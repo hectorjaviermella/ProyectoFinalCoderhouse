@@ -13797,3 +13797,313 @@ debug: GET en /payment-intents?id=64e1494248595f586ce34fcf - 8/19/2023 - 7:59:49
 debug: POST en /processpayment - 8/19/2023 - 8:00:15 PM
 debug: GET en /products - 8/19/2023 - 8:00:18 PM
 debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:06:00 PM
+debug: GET en / - 8/19/2023 - 8:06:01 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:06:03 PM
+debug: GET en /api/sessions/githubcallback?code=1f1704bbbdfd556d27d7 - 8/19/2023 - 8:06:03 PM
+debug: GET en /products - 8/19/2023 - 8:06:04 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:06:27 PM
+debug: GET en / - 8/19/2023 - 8:06:29 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:06:31 PM
+debug: GET en /api/sessions/githubcallback?code=f544860a02f78f98b2d2 - 8/19/2023 - 8:06:31 PM
+debug: GET en /products - 8/19/2023 - 8:06:33 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/githubcallback?code=20df256661ccdd47cfef - 8/19/2023 - 8:07:41 PM
+debug: GET en /products - 8/19/2023 - 8:07:43 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:09:13 PM
+debug: GET en / - 8/19/2023 - 8:09:15 PM
+debug: GET en /api/sessions/githubcallback?code=2e48097cfaa34bef44fc - 8/19/2023 - 8:09:25 PM
+debug: GET en /products - 8/19/2023 - 8:09:26 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:11:16 PM
+debug: GET en / - 8/19/2023 - 8:11:17 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:11:18 PM
+debug: GET en /api/sessions/githubcallback?code=21388a53d1288ab8e39d - 8/19/2023 - 8:11:19 PM
+debug: GET en /api/sessions/products - 8/19/2023 - 8:11:20 PM
+debug: POST en /api/sessions/login - 8/19/2023 - 8:11:35 PM
+debug: GET en /products - 8/19/2023 - 8:11:36 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:13:45 PM
+debug: GET en / - 8/19/2023 - 8:13:46 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:13:48 PM
+debug: GET en /api/sessions/githubcallback?code=542bbe5a3714bb913946 - 8/19/2023 - 8:13:52 PM
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:13:57 PM
+debug: GET en / - 8/19/2023 - 8:13:59 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:14:00 PM
+debug: GET en /api/sessions/githubcallback?code=5e92de9e65215ff85bf8 - 8/19/2023 - 8:14:01 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:15:25 PM
+debug: GET en / - 8/19/2023 - 8:15:26 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:15:27 PM
+debug: GET en /api/sessions/githubcallback?code=97c34ad97d06ad263e98 - 8/19/2023 - 8:15:28 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:16:59 PM
+debug: GET en /api/sessions/githubcallback?code=bb8195dadf09e8e47ae1 - 8/19/2023 - 8:17:00 PM
+debug: GET en /products - 8/19/2023 - 8:17:09 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:17:15 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:17:17 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:17:17 PM
+debug: GET en /products - 8/19/2023 - 8:17:17 PM
+debug: Entro al getProducts
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:17:18 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:18:25 PM
+debug: GET en / - 8/19/2023 - 8:18:26 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:18:28 PM
+debug: GET en /api/sessions/githubcallback?code=3660ce6676a37ebb4fe5 - 8/19/2023 - 8:18:29 PM
+debug: GET en /products - 8/19/2023 - 8:18:33 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/current - 8/19/2023 - 8:18:35 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:20:23 PM
+debug: GET en / - 8/19/2023 - 8:20:25 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:20:26 PM
+debug: GET en /api/sessions/githubcallback?code=670d94e0015419e3bd6d - 8/19/2023 - 8:20:26 PM
+debug: GET en /products - 8/19/2023 - 8:21:08 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:21:15 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:31:38 PM
+debug: GET en / - 8/19/2023 - 8:31:40 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:31:41 PM
+debug: GET en /api/sessions/githubcallback?code=c50e9eaf003e10b770a4 - 8/19/2023 - 8:31:42 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:33:23 PM
+debug: GET en /api/sessions/githubcallback?code=346abba34382df7f9ad4 - 8/19/2023 - 8:33:23 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:34:03 PM
+debug: GET en /api/sessions/githubcallback?code=dfd446f4a7ca1d3004d7 - 8/19/2023 - 8:34:04 PM
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:34:07 PM
+debug: GET en / - 8/19/2023 - 8:34:09 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:34:10 PM
+debug: GET en /api/sessions/githubcallback?code=3be6c152cdebaec89398 - 8/19/2023 - 8:34:10 PM
+debug: GET en /products - 8/19/2023 - 8:34:49 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/current - 8/19/2023 - 8:34:52 PM
+debug: GET en /products - 8/19/2023 - 8:34:53 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:34:56 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/19/2023 - 8:34:57 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:34:58 PM
+debug: GET en / - 8/19/2023 - 8:34:59 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:35:00 PM
+debug: GET en /api/sessions/githubcallback?code=bc55209af7e682f27af0 - 8/19/2023 - 8:35:04 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:37:31 PM
+debug: GET en / - 8/19/2023 - 8:37:33 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:37:34 PM
+debug: GET en /api/sessions/githubcallback?code=ec80170d4ba37613beec - 8/19/2023 - 8:37:35 PM
+debug: GET en /products - 8/19/2023 - 8:37:54 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:37:58 PM
+debug: GET en / - 8/19/2023 - 8:37:59 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:38:32 PM
+debug: GET en /api/sessions/githubcallback?code=0f3b5ef5ed6d2ff1298f - 8/19/2023 - 8:38:32 PM
+debug: GET en /products - 8/19/2023 - 8:38:36 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:40:51 PM
+debug: GET en / - 8/19/2023 - 8:40:52 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:40:53 PM
+debug: GET en /api/sessions/githubcallback?code=365cc938c743d4f69954 - 8/19/2023 - 8:40:54 PM
+debug: GET en /api/sessions/githubcallback?code=365cc938c743d4f69954 - 8/19/2023 - 8:40:58 PM
+debug: GET en /api/sessions/githubcallback?code=365cc938c743d4f69954 - 8/19/2023 - 8:41:01 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:41:05 PM
+debug: GET en /api/sessions/githubcallback?code=15386c3ea4e897816a9d - 8/19/2023 - 8:41:06 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:41:30 PM
+debug: GET en / - 8/19/2023 - 8:41:32 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:41:33 PM
+debug: GET en /api/sessions/githubcallback?code=5cfdbb9650528a753414 - 8/19/2023 - 8:41:34 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:42:15 PM
+debug: GET en /api/sessions/githubcallback?code=dec8fcdd77076dc2e60c - 8/19/2023 - 8:42:15 PM
+debug: GET en /api/sessions/current - 8/19/2023 - 8:42:21 PM
+debug: GET en /products - 8/19/2023 - 8:42:23 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:42:27 PM
+debug: GET en / - 8/19/2023 - 8:42:30 PM
+debug: POST en /api/sessions/login - 8/19/2023 - 8:42:36 PM
+debug: GET en /products - 8/19/2023 - 8:42:37 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:43:37 PM
+debug: GET en / - 8/19/2023 - 8:43:38 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:43:39 PM
+debug: GET en /api/sessions/githubcallback?code=e48b41ca335dd89ce983 - 8/19/2023 - 8:43:40 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:44:07 PM
+debug: GET en / - 8/19/2023 - 8:44:08 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:44:09 PM
+debug: GET en /api/sessions/githubcallback?code=790b13b845a3ea347b2d - 8/19/2023 - 8:44:10 PM
+debug: Server runing at port 8080
+debug: GET en /products - 8/19/2023 - 8:45:07 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:45:08 PM
+debug: GET en / - 8/19/2023 - 8:45:09 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:45:10 PM
+debug: GET en /api/sessions/githubcallback?code=9822140082ef8a01cf2c - 8/19/2023 - 8:45:11 PM
+debug: GET en /products - 8/19/2023 - 8:45:12 PM
+debug: Entro al getProducts
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:47:44 PM
+debug: GET en / - 8/19/2023 - 8:47:46 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:47:47 PM
+debug: GET en /api/sessions/githubcallback?code=e96fa0b915919bdc0c65 - 8/19/2023 - 8:47:50 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:49:37 PM
+debug: GET en / - 8/19/2023 - 8:49:38 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:49:40 PM
+debug: GET en /api/sessions/githubcallback?code=840178cb7ce468a78272 - 8/19/2023 - 8:49:40 PM
+debug: Server runing at port 8080
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:52:22 PM
+debug: GET en /api/sessions/githubcallback?code=d7c719cdeb4338538aeb - 8/19/2023 - 8:52:23 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:52:50 PM
+debug: GET en /api/sessions/githubcallback?code=61d66d03918438f0ac00 - 8/19/2023 - 8:52:50 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/github - 8/19/2023 - 8:53:34 PM
+debug: GET en /api/sessions/githubcallback?code=8b66a8efb365a3388a68 - 8/19/2023 - 8:53:34 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:56:28 PM
+debug: GET en / - 8/19/2023 - 8:56:29 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:56:30 PM
+debug: GET en /api/sessions/githubcallback?code=237a333bc8fd35a887ae - 8/19/2023 - 8:56:31 PM
+debug: Server runing at port 8080
+debug: GET en /products - 8/19/2023 - 8:57:10 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:57:11 PM
+debug: GET en / - 8/19/2023 - 8:57:12 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:57:13 PM
+debug: GET en /api/sessions/githubcallback?code=feb0cede3ebff752933c - 8/19/2023 - 8:57:14 PM
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:57:18 PM
+debug: GET en / - 8/19/2023 - 8:57:20 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:57:22 PM
+debug: GET en /api/sessions/githubcallback?code=a9c31adf767990cb94c1 - 8/19/2023 - 8:57:22 PM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:58:07 PM
+debug: GET en / - 8/19/2023 - 8:58:09 PM
+debug: GET en /api/sessions/github - 8/19/2023 - 8:58:10 PM
+debug: GET en /api/sessions/githubcallback?code=fc746771a43ac46597ae - 8/19/2023 - 8:58:11 PM
+debug: GET en /products - 8/19/2023 - 8:58:21 PM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/19/2023 - 8:58:24 PM
+debug: GET en / - 8/19/2023 - 8:58:26 PM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:06:54 AM
+debug: GET en /api/sessions/githubcallback?code=4e37c0276b219917b9dd - 8/20/2023 - 11:06:55 AM
+debug: GET en /products - 8/20/2023 - 11:06:59 AM
+debug: Entro al getProducts
+debug: GET en /products - 8/20/2023 - 11:07:01 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:07:02 AM
+debug: GET en / - 8/20/2023 - 11:07:04 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:07:05 AM
+debug: GET en /api/sessions/githubcallback?code=d03f9ddaa01b72465b20 - 8/20/2023 - 11:07:06 AM
+debug: GET en /api/sessions/githubcallback?code=d03f9ddaa01b72465b20 - 8/20/2023 - 11:08:11 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:08:15 AM
+debug: GET en /api/sessions/githubcallback?code=ad615a9c1d105fccfa1a - 8/20/2023 - 11:08:16 AM
+debug: GET en /newproduct - 8/20/2023 - 11:08:19 AM
+debug: GET en /users - 8/20/2023 - 11:08:30 AM
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/20/2023 - 11:08:35 AM
+debug: GET en /products - 8/20/2023 - 11:08:42 AM
+debug: Entro al getProducts
+debug: GET en /newproduct - 8/20/2023 - 11:08:49 AM
+debug: GET en /products - 8/20/2023 - 11:09:31 AM
+debug: Entro al getProducts
+debug: GET en /newproduct - 8/20/2023 - 11:09:33 AM
+debug: GET en /newproduct - 8/20/2023 - 11:09:35 AM
+debug: GET en /newproduct - 8/20/2023 - 11:09:36 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:09:41 AM
+debug: GET en / - 8/20/2023 - 11:09:42 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:09:43 AM
+debug: GET en /api/sessions/githubcallback?code=685066607abadd3a151f - 8/20/2023 - 11:09:44 AM
+debug: GET en /newproduct - 8/20/2023 - 11:09:46 AM
+debug: GET en /newproduct - 8/20/2023 - 11:10:07 AM
+debug: GET en /newproduct - 8/20/2023 - 11:10:08 AM
+debug: GET en /newproduct - 8/20/2023 - 11:10:09 AM
+debug: GET en /newproduct - 8/20/2023 - 11:10:09 AM
+debug: GET en /products - 8/20/2023 - 11:10:11 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/current - 8/20/2023 - 11:10:12 AM
+debug: GET en /newproduct - 8/20/2023 - 11:10:15 AM
+debug: Server runing at port 8080
+debug: GET en /products - 8/20/2023 - 11:11:27 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:11:27 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:11:30 AM
+debug: GET en / - 8/20/2023 - 11:11:32 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:11:36 AM
+debug: GET en /api/sessions/githubcallback?code=7c9d217dac7755288916 - 8/20/2023 - 11:11:36 AM
+debug: GET en /newproduct - 8/20/2023 - 11:11:40 AM
+debug: GET en /api/sessions/githubcallback?code=c521c2cfc6ad370d2999 - 8/20/2023 - 11:14:41 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:14:44 AM
+debug: GET en /newproduct - 8/20/2023 - 11:14:46 AM
+debug: GET en /newproduct - 8/20/2023 - 11:16:28 AM
+debug: GET en /newproduct - 8/20/2023 - 11:16:30 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:16:32 AM
+debug: GET en /users - 8/20/2023 - 11:16:33 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:16:35 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:16:40 AM
+debug: GET en /newproduct - 8/20/2023 - 11:16:48 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:16:50 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:16:57 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:16:59 AM
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/20/2023 - 11:17:01 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:17:03 AM
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/20/2023 - 11:17:04 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:06 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:17:07 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:23 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:24 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:28 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:17:30 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:31 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:17:35 AM
+debug: GET en /users - 8/20/2023 - 11:17:54 AM
+debug: GET en /newproduct - 8/20/2023 - 11:17:55 AM
+debug: GET en /users - 8/20/2023 - 11:17:56 AM
+debug: GET en /ticketsUser/ - 8/20/2023 - 11:18:00 AM
+debug: GET en /users - 8/20/2023 - 11:18:16 AM
+debug: GET en /products - 8/20/2023 - 11:18:17 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:18:19 AM
+debug: GET en / - 8/20/2023 - 11:18:21 AM
+debug: POST en /api/sessions/login - 8/20/2023 - 11:18:27 AM
+debug: GET en /products - 8/20/2023 - 11:18:27 AM
+debug: Entro al getProducts
+debug: GET en /newproduct - 8/20/2023 - 11:18:29 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:18:32 AM
+debug: GET en /products - 8/20/2023 - 11:18:33 AM
+debug: Entro al getProducts
+debug: GET en /ticketsUser/hectorjaviermella@gmail.com - 8/20/2023 - 11:18:36 AM
+debug: GET en /users - 8/20/2023 - 11:18:40 AM
+debug: GET en /newproduct - 8/20/2023 - 11:18:42 AM
+debug: GET en /api/sessions/current - 8/20/2023 - 11:18:44 AM
+debug: GET en /products - 8/20/2023 - 11:18:45 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:18:46 AM
+debug: GET en / - 8/20/2023 - 11:18:47 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:18:50 AM
+debug: GET en /api/sessions/githubcallback?code=d794cb857e696fe957bf - 8/20/2023 - 11:18:51 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:18:54 AM
+debug: GET en / - 8/20/2023 - 11:18:56 AM
+debug: GET en /api/sessions/githubcallback?code=c521c2cfc6ad370d2999 - 8/20/2023 - 11:19:26 AM
+debug: GET en /api/sessions/githubcallback?code=f9699f2f1d3e5883a29d - 8/20/2023 - 11:19:31 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:19:37 AM
+debug: GET en / - 8/20/2023 - 11:19:38 AM

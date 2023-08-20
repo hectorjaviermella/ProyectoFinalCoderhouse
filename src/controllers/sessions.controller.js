@@ -6,6 +6,7 @@ import { userModel } from "../daos/mongo/model/user.js";
 import config from "../config/config.js";
 import jwt from "jsonwebtoken";
 import  UsersService  from "../services/users.service.js";
+import { productRepository, userRepository } from "../repositories/index.js";
 const usersService = new UsersService();
 
 export const sessionsRouter = Router();
@@ -99,12 +100,14 @@ export function github(req, res) {
 }
 ;
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-export function githubcallback(req, res) {
+export async function githubcallback(req, res) {
     req.session.user = req.user;
-   
-    res.redirect("/products");
-  }
-;
+   //  res.redirect("/products");
+
+   const userToSave = new UserDTO(req.session.user);
+ 
+  res.render("profile", { user: userToSave ,status: "sucess", payload: userToSave  });
+  };
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
