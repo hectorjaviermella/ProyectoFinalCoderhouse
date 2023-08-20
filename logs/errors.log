@@ -14107,3 +14107,133 @@ debug: GET en /api/sessions/githubcallback?code=c521c2cfc6ad370d2999 - 8/20/2023
 debug: GET en /api/sessions/githubcallback?code=f9699f2f1d3e5883a29d - 8/20/2023 - 11:19:31 AM
 debug: GET en /api/sessions/logout - 8/20/2023 - 11:19:37 AM
 debug: GET en / - 8/20/2023 - 11:19:38 AM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/githubcallback?code=607cf52913888c495a3c - 8/20/2023 - 11:42:40 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:42:48 AM
+debug: GET en /api/sessions/githubcallback?code=20108fde31f1af614444 - 8/20/2023 - 11:42:49 AM
+debug: GET en /products - 8/20/2023 - 11:43:04 AM
+debug: Entro al getProducts
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:43:13 AM
+debug: GET en / - 8/20/2023 - 11:43:14 AM
+debug: GET en /api/sessions/githubcallback?code=93be1066e43cb95280c6 - 8/20/2023 - 11:43:37 AM
+debug: GET en /favicon.ico - 8/20/2023 - 11:43:38 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:43:44 AM
+debug: GET en / - 8/20/2023 - 11:43:46 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:48:32 AM
+debug: GET en /api/sessions/githubcallback?code=a8e18bb07215efab215c - 8/20/2023 - 11:48:33 AM
+debug: GET en /api/sessions/githubcallback?code=93be1066e43cb95280c6 - 8/20/2023 - 11:48:39 AM
+debug: GET en /api/sessions/githubcallback?code=4a7851478ec057dd0267 - 8/20/2023 - 11:48:44 AM
+debug: GET en /api/sessions/githubcallback?code=6e070394f2c76c9c048b - 8/20/2023 - 11:49:46 AM
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:49:53 AM
+debug: GET en / - 8/20/2023 - 11:49:56 AM
+debug: Server runing at port 8080
+debug: GET en /api/sessions/logout - 8/20/2023 - 11:50:52 AM
+debug: GET en / - 8/20/2023 - 11:50:54 AM
+debug: GET en /api/sessions/github - 8/20/2023 - 11:50:56 AM
+debug: GET en /api/sessions/githubcallback?code=25bf241f471288da045c - 8/20/2023 - 11:50:57 AM
+debug: GET en /api/sessions/githubcallback?code=4730d7b395a362a9591f - 8/20/2023 - 11:52:13 AM
+debug: GET en /api/sessions/githubcallback?error=access_denied&error_description=The+user+has+denied+your+application+access.&error_uri=https%3A%2F%2Fdocs.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-authorization-request-errors%2F%23access-denied - 8/20/2023 - 11:53:53 AM
+debug: GET en /login - 8/20/2023 - 11:53:53 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:54 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:55 AM
+debug: GET en /login - 8/20/2023 - 11:53:56 AM
+debug: GET en /login - 8/20/2023 - 11:53:56 AM
+debug: GET en /login - 8/20/2023 - 11:53:56 AM
+debug: GET en /login - 8/20/2023 - 11:53:56 AM
+debug: GET en /login - 8/20/2023 - 11:53:57 AM
+debug: GET en /login - 8/20/2023 - 11:53:57 AM
+debug: GET en /login - 8/20/2023 - 11:53:57 AM
+debug: GET en /login - 8/20/2023 - 11:53:57 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:58 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:53:59 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:00 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:01 AM
+debug: GET en /login - 8/20/2023 - 11:54:02 AM
+debug: GET en /login - 8/20/2023 - 11:54:02 AM
+debug: GET en /login - 8/20/2023 - 11:54:02 AM
+debug: GET en /login - 8/20/2023 - 11:54:02 AM
+debug: GET en /login - 8/20/2023 - 11:54:02 AM
+debug: GET en /api/sessions/githubcallback?code=969e258eb9ce63967b09 - 8/20/2023 - 12:06:30 PM
+debug: GET en /products - 8/20/2023 - 12:13:49 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/20/2023 - 12:15:35 PM
+debug: Entro al getProducts
+debug: GET en /products - 8/20/2023 - 12:15:38 PM
+debug: Entro al getProducts
+debug: GET en /mail - 8/20/2023 - 12:23:35 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en / - 8/20/2023 - 12:25:32 PM
+debug: POST en /api/sessions/login - 8/20/2023 - 12:25:40 PM
+debug: GET en /products - 8/20/2023 - 12:25:41 PM
+debug: Entro al getProducts
+debug: GET en /mail - 8/20/2023 - 12:30:37 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 12:55:28 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: GET en /mail - 8/20/2023 - 12:55:35 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 12:57:05 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: GET en /mail - 8/20/2023 - 12:57:05 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 12:57:42 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: GET en /mail - 8/20/2023 - 12:57:45 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:02:34 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:03:01 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:04:19 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:06:27 PM
+debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:07:22 PM
+debug: Entro al sendEmail xx mail.controller mock

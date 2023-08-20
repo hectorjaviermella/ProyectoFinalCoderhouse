@@ -43,8 +43,7 @@ export default class MailsService {
             cid: 'miemail',
         }]*/
     });
-   
- 
+  
  
  return result;
    } catch (error) {
