@@ -27,7 +27,7 @@ export default class MailsService {
 /////////////////////////////////////////////////////////////////////
  async  sendEmail(email,psubject,phtml){
     try {
-         console.log("entro a sendemail mail.service" , email);       
+       
    
     //const email=req.session.user.email;
 

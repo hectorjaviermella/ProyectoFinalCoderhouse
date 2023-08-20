@@ -14237,3 +14237,11 @@ debug: Entro al sendEmail xx mail.controller mock
 debug: Server runing at port 8080
 debug: GET en /mail - 8/20/2023 - 1:07:22 PM
 debug: Entro al sendEmail xx mail.controller mock
+debug: Server runing at port 8080
+debug: GET en /mail - 8/20/2023 - 1:19:01 PM
+debug: GET en /api/sessions/githubcallback?code=284e52131b9935c2cb43 - 8/20/2023 - 1:20:01 PM
+debug: GET en /mail - 8/20/2023 - 2:31:05 PM
+debug: Server runing at port 8080
+debug: GET en / - 8/20/2023 - 2:55:19 PM
+debug: GET en /api/sessions/github - 8/20/2023 - 2:55:22 PM
+debug: GET en /mail - 8/20/2023 - 2:55:30 PM
