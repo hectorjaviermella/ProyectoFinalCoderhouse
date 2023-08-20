@@ -14275,3 +14275,9 @@ debug: GET en /products - 8/20/2023 - 4:36:36 PM
 debug: Entro al getProducts
 debug: GET en /api/sessions/logout - 8/20/2023 - 4:39:01 PM
 debug: GET en / - 8/20/2023 - 4:39:03 PM
+debug: Server runing at port 8080
+debug: GET en / - 8/20/2023 - 4:44:37 PM
+debug: GET en /api/sessions/github - 8/20/2023 - 4:44:39 PM
+debug: Server runing at port 8080
+debug: GET en / - 8/20/2023 - 4:46:08 PM
+debug: GET en /api/sessions/github - 8/20/2023 - 4:46:12 PM

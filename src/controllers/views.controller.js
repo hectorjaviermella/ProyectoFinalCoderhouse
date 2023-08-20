@@ -212,17 +212,13 @@ export async function newproduct(req, res) {
   if(!req.user)
        res.render("login");
        
-  ///const pId = req.params.pId; 
- // const cId = req.user.cart; 
-  //  const prod =   await productRepository.getProductsById(pId);
-   
-   // res.render("product", { prod, cId });
+
   
    res.render("newproduct");
 };
 
 
-///////////////////////////////////////////////////////////////////////////////////
+
 ///////////////////////////////////////////////////////////////////////////////////
 //muestra un producto
 export async function getProductsById(req, res) {
