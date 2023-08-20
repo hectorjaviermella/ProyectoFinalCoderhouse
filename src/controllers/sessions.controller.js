@@ -97,13 +97,6 @@ export function login(req, res) {
 */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 export function github(req, res) {
-  console.log("github session.controller");
-  req.session.user = req.user;
-  //  res.redirect("/products");
-
-  const userToSave = new UserDTO(req.session.user);
-
- res.render("profile", { user: userToSave ,status: "sucess", payload: userToSave  });
 };
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 export async function githubcallback(req, res) {
